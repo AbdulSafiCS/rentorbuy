@@ -151,7 +151,7 @@ button {
   right: 0;
   height: 85px;
   background-color: #ffffff;
-  z-index: 1000;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -318,7 +318,7 @@ button {
 }
 
 .exploreCategoryHeading {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .swiper-container {
@@ -379,6 +379,7 @@ button {
 .exploreCategories {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .exploreCategories a {
   width: 48%;
