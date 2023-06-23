@@ -67,7 +67,7 @@ function Profile() {
   }, [auth.currentUser.uid]);
   const onLogout = () => {
     auth.signOut();
-    navigate("/");
+    navigate("#");
   };
   const onSubmit = async () => {
     try {
